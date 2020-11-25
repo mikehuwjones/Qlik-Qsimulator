@@ -1,0 +1,104 @@
+{
+    "namespace": "com.mastercard.fcspr.types",
+    "type":"record",
+    "name":"Transaction",
+    "fields": [
+        {"name":"Id","type":"string"},
+        {"name":"TimeSent","type":"long","default":-1},
+        {"name":"TimeMessageSent","type":"long","default":-1},
+        {"name":"Time", "type":"long"},
+        {"name":"TimeSwitchReceived", "type":"long","default":-1},
+        {"name":"TimeSwitchSent","type":"long", "default":-1},
+        {"name":"TimeConfirmationReceived","type":"long","default":-1},
+        {"name":"TimeConfirmationSent","type":"long","default":-1},
+        {
+            "namespace":"com.mastercard.fcspr.types.Source",
+            "name":"Source",
+            "type":{
+                "type":"record",
+                "namespace":"com.mastercard.fcspr.types.Source",
+                "name":"Source",
+                "fields":[
+                    {"name":"Id","type":"string"},
+                    {"name":"OwningBank","type":"string"},
+                    {"name":"OwningBankName","type":"string","default":""},
+                    {"name":"SettlingBank","type":"string","default":""},
+                    {"name":"SettlingBankName","type":"string","default":""},
+                    {"name":"HandlingBank","type":"string","default":""},
+                    {"name":"HandlingBankName","type":"string","default":""},
+                    {"name":"Name","type":"string"},
+                    {"name":"ActingFor","type":"string","default":""},
+                    {"name":"Overseas","type":"boolean","default":false},
+                    {"name":"Type","type":"string", "default":""}
+                ]
+            }
+        },
+        {
+            "namespace":"com.mastercard.fcspr.types.Dest",
+            "name":"Dest",
+            "type":{
+                "type":"record",
+                "namespace":"com.mastercard.fcspr.types.Dest",
+                "name":"Dest",
+                "fields": [
+                    {"name":"Id","type":"string"},
+                    {"name":"OwningBank","type":"string"},
+                    {"name":"OwningBankName","type":"string", "default":""},
+                    {"name":"SettlingBank","type":"string", "default":""},
+                    {"name":"SettlingBankName","type":"string", "default":""},
+                    {"name":"HandlingBank","type":"string", "default":""},
+                    {"name":"HandlingBankName","type":"string", "default":""},
+                    {"name":"Name","type":"string"},
+                    {"name":"ActingFor","type":"string", "default":""},
+                    {"name":"Overseas","type":"boolean", "default":false},
+                    {"name":"Type","type":"string", "default":""}
+                ]
+            }
+        },
+        {
+            "namespace":"com.mastercard.fcspr.types.SourceDevice",
+            "name":"SourceDevice",
+            "type":{
+                "type":"record",
+                "namespace":"com.mastercard.fcspr.types.SourceDevice",
+                "name":"SourceDevice",
+                "fields": [
+                    {"name":"Id","type":"string","default":""},
+                    {"name":"Type","type":"string","default":""},
+                    {"name":"IpAddress","type":"string", "default":""}
+                ]
+            }, "default":{}
+        },
+        {"name":"Type","type":"string","default":""},
+        {"name":"Value","type":"long"},
+        {"name":"Ref","type":"string"},
+        {"name":"Currency","type":"string"},
+        {"name":"Service","type":"string", "default":""},
+        {"name":"Success","type":"boolean","default":false},
+        {"name":"Redirection","type":"boolean","default":false},
+        {"name":"Category","type":"string","default":""},
+        {"name":"E2eRef","type":"string","default":""},
+        {"name":"SourceBatchID","type":"string", "default":""},
+        {"name":"DestinationBatchID","type":"string", "default":""},
+        {"name":"Auth","type":"string", "default":""},
+        {"name":"ThirdParty","type":"boolean","default":false},
+        {
+            "namespace":"com.mastercard.fcspr.types.Settlement",
+            "name":"Settlement",
+            "type":{
+                    "type":"record",
+                    "namespace":"com.mastercard.fcspr.types.Settlement",
+                    "name":"Settlement",
+                    "fields": [
+                        {"name":"Time","type":"long","default":-1},
+                        {"name":"Cycle","type":"string","default":""},
+                        {"name":"Date","type":"string","default":""},
+                        {"name":"Priority","type":"string","default":""}
+                    ]
+                }, "default":{}
+        }
+    ]
+
+}
+
+

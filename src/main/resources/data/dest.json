@@ -1,0 +1,54 @@
+[
+  {
+    "Id": "1111111",
+    "OwningBank": "10202",
+    "OwningBankName": "Barclays",
+    "SettlingBank": "10303",
+    "SettlingBankName": "Lloyds",
+    "HandlingBank": "10303",
+    "HandlingBankName": "Lloyds",
+    "Name": "janet",
+    "ActingFor": "Janet",
+    "Overseas": false,
+    "Type": "type3"
+  },
+  {
+    "Id": "222222",
+    "OwningBank": "10202",
+    "OwningBankName": "Barclays",
+    "SettlingBank": "10303",
+    "SettlingBankName": "Lloyds",
+    "HandlingBank": "10303",
+    "HandlingBankName": "Lloyds",
+    "Name": "imjmyanet",
+    "ActingFor": "Jankett",
+    "Overseas": false,
+    "Type": "type3"
+  },
+  {
+    "Id": "3334444",
+    "OwningBank": "10202",
+    "OwningBankName": "Barclays",
+    "SettlingBank": "10303",
+    "SettlingBankName": "Lloyds",
+    "HandlingBank": "10303",
+    "HandlingBankName": "Lloyds",
+    "Name": "jrtht",
+    "ActingFor": "rthyh",
+    "Overseas": false,
+    "Type": "type3"
+  },
+  {
+    "Id": "55544661",
+    "OwningBank": "10202",
+    "OwningBankName": "Barclays",
+    "SettlingBank": "10303",
+    "SettlingBankName": "Lloyds",
+    "HandlingBank": "10303",
+    "HandlingBankName": "Lloyds",
+    "Name": "jatt",
+    "ActingFor": "rthyh",
+    "Overseas": false,
+    "Type": "type3"
+  }
+]

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b42da10-c721-4772-bf4d-e63b6141cf3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QjvFHZuRDYpk530svPdYfNi3xN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/mastercard/fcspr/examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mastercard.fcspr.examples" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mastercard.fcspr.examples.datagenerator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\CodeProjects\Qlik-simulator\scripts" />
+      <recent name="C:\CodeProjects\Qlik-simulator\src\main\resources\schema" />
+      <recent name="C:\CodeProjects\Qlik-simulator\src\main\java\com\mastercard\fcspr\examples\datagenerator" />
+      <recent name="C:\CodeProjects\Qlik-simulator\src\main\resources\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QlikSimulator">
+    <configuration name="QlikSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mastercard.fcspr.examples.QlikSimulator" />
+      <module name="Qlik-simulator" />
+      <option name="PROGRAM_PARAMETERS" value="qlik1 1 5000" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mastercard.fcspr.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create-topic-QLIK-1" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="Qlik-simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\CodeProjects\Qlik-simulator\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="create-topic-QLIK-1.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="create-topic-QLIK-2" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="Qlik-simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\CodeProjects\Qlik-simulator\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="create-topic-QLIK-2.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start-kafka-server" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="Qlik-simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\CodeProjects\Qlik-simulator\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="start-kafka-server.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start-schema-registry" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="Qlik-simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\CodeProjects\Qlik-simulator\scripts" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="start-schema-registry.cmd" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.QlikSimulator" />
+      <item itemvalue="Batch.start-kafka-server" />
+      <item itemvalue="Batch.start-schema-registry" />
+      <item itemvalue="Batch.create-topic-QLIK-1" />
+      <item itemvalue="Batch.create-topic-QLIK-2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QlikSimulator" />
+        <item itemvalue="Batch.create-topic-QLIK-2" />
+        <item itemvalue="Batch.create-topic-QLIK-1" />
+        <item itemvalue="Batch.start-schema-registry" />
+        <item itemvalue="Batch.start-kafka-server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b42da10-c721-4772-bf4d-e63b6141cf3d" name="Default Changelist" comment="" />
+      <created>1568296714987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568296714987</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="144" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606054969824">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="144" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606054969824" />
+    <state x="414" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605967562001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1605967562001" />
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605967881017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1605967881017" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605969484339">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605969484339" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606335280139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606335280139" />
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom" timestamp="1606165600485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606165600485" />
+    <state width="1493" height="126" key="GridCell.Tab.0.center" timestamp="1606165600485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606165600485" />
+    <state width="1493" height="126" key="GridCell.Tab.0.left" timestamp="1606165600485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606165600485" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right" timestamp="1606165600485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="126" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606165600485" />
+    <state x="583" y="193" key="chooseDestDirectoryDialog" timestamp="1605967873295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="583" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1605967873295" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606335274082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606335274082" />
+  </component>
+</project>
